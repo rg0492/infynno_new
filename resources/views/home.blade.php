@@ -6,7 +6,6 @@
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header">Dashboard</div>
-
                 <div class="card-body">
                     @if (session('status'))
                         <div class="alert alert-success" role="alert">
@@ -43,13 +42,4 @@
         </div>
     </div>
 </div>
-<script src="/build/jquery.datetimepicker.full.min.js"></script>
-
-<script type="text/javascript">
-            $(function () {
-                $('#expire_time').datetimepicker({
-                      format:'d.m.Y H:i',
-                });
-            });
-        </script>
 @endsection

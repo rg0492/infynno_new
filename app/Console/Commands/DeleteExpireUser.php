@@ -37,6 +37,6 @@ class DeleteExpireUser extends Command
      */
     public function handle()
     {
-        User::deleteUser()   
+        User::deleteUser();   
     }
 }
